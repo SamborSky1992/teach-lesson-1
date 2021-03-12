@@ -1,20 +1,21 @@
 package pl.mlopatka.human;
 
-public class MarcinLopatka implements Human {
-
+public class ArturSam implements Human {
     private String name;
     private String surname;
     private int age;
+    private String nickname;
 
-    public MarcinLopatka() {
-        this.name = "Marcin";
-        this.surname = "Lopatka";
-        this.age = 28;
+    public ArturSam(){
+        this.name = "Artur";
+        this.surname = "Sam";
+        this.age = 11;
+        this.nickname = "Wichajster";
     }
 
     @Override
     public String name() {
-        return name +" "+ surname;
+        return name+surname;
     }
 
     @Override
@@ -24,6 +25,6 @@ public class MarcinLopatka implements Human {
 
     @Override
     public String nickname() {
-        return null;
+        return nickname;
     }
 }
