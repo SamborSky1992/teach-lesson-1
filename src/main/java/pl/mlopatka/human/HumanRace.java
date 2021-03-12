@@ -4,7 +4,7 @@ import java.util.List;
 
 public class HumanRace {
 
-    private static List<Human> HUMANS = List.of(
+    private final static List<Human> HUMANS = List.of(
             new MarcinLopatka()
     );
 
